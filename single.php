@@ -10,7 +10,15 @@
           <h1 class="entry-title"><?php the_title(); ?></h1>
 
           <div class="entry-meta">
+
             <?php hackeryou_posted_on(); ?>
+
+            <?php $my_date = the_date('D M'); echo $my_date; ?>
+            <?php echo get_avatar( get_the_author_meta( 'ID' ), 100 ); ?>
+            <?php the_author_posts_link(); ?>
+            
+            (<?php the_time(); ?>)
+
           </div><!-- .entry-meta -->
 
           <div class="entry-content">

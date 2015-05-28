@@ -1,4 +1,5 @@
 <footer>
+
  <div class="container">
      <article class="footer leftSide">
           <i class="fa fa-phone"></i>
@@ -16,8 +17,6 @@
      </article>
  </div>
 </footer>
-
-
 
 <script>
 /* Google Analytics! */
