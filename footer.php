@@ -7,6 +7,7 @@
           <i class="fa fa-map-marker"></i>
      </article>
      <article class="footer middle">
+     	<img class="lotusBottom" src="<?php bloginfo('template_directory') ?>/img/lotus2.svg" alt="">
          <p>&copy; Monatang <?php echo date('Y'); ?></p>
      </article>
      <article class="footer rightSide">

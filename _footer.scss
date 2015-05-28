@@ -5,43 +5,53 @@ footer {
   clear:both;
   background: $lightBeige;
   height:200px;
+  article{
+    float:left;
+    text-align: center;
+    line-height:200px;
+    i.fa{
+      color: $darkGrey;
+      font-size: 30px;
+      padding: 10px;
+    }
+
+    i.fa:hover{
+      color: $turquoise;
+    }
+  }
+
+  article.leftSide{
+    width:33%;
+    margin:0;
+    padding:0;
+
+  }
+
+  article.middle{
+     width:33%;
+     margin:0;
+     padding:0;
+     p{
+         display: inline;
+       }
+  }
+
+  article.rightSide{
+     width:33%;
+     margin:0;
+     padding:0;
+  }
 }
 
-footer p{
-  display: inline;
-}
 
-footer article{
-  float:left;
-  text-align: center;
-  line-height:200px;
-}
 
-footer article.leftSide{
-  width:33%;
-  margin:0;
-  padding:0;
 
-}
-
-footer article.middle{
-   width:33%;
-   margin:0;
-   padding:0;
-}
-
-footer article.rightSide{
-   width:33%;
-   margin:0;
-   padding:0;
-}
-
-footer i.fa{
+i.fa{
   color: $darkGrey;
   font-size: 30px;
   padding: 10px;
 }
 
-footer i.fa:hover{
+i.fa:hover{
   color: $turquoise;
 }
