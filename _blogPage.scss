@@ -4,7 +4,7 @@
 
 .blogPost {
   border: 2px solid #91DDD1;
-  border-radius: 3px;
+  border-radius: 50px;
   margin: 20px 10px;
   padding: 30px;
   box-shadow: 8px 8px 5px #888888;
@@ -12,8 +12,23 @@
 
 h2.entry-title a {
   color: #1E212A;
+  &:hover {
+  	color: #91DDD1;
+  }
 }
 
-h2.entry-title a:hover {
-  color: #91DDD1;
+footer.blogFooter {
+	background: #fff;
+	height: 40px;
+
+	p {
+		margin: 10px;
+		a {
+			font-weight: 400;
+			color: $darkGrey;
+			&:hover {
+				color: $mediumBrown;
+			}
+		}
+	}	
 }
