@@ -111,3 +111,8 @@ pre {
   padding: 10px;
   border-radius: 4px;
   border: 1px solid #ccc; }
+
+/*Headers*/
+/* line 96, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_default.scss */
+h1, h2 {
+  margin: 30px; }

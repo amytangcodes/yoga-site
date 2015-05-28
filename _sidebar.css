@@ -1,0 +1,21 @@
+/* =============================================================================
+                   Sidebar
+========================================================================== */
+/* line 5, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_sidebar.scss */
+.sidebar {
+  width: 30%;
+  float: left; }
+
+/* line 9, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_sidebar.scss */
+.sidebar ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 13, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_sidebar.scss */
+.sidebar ul li {
+  list-style: none; }
+
+/* line 17, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_sidebar.scss */
+input {
+  border-radius: 3px;
+  margin: 20px 10px; }
