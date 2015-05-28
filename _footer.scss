@@ -3,7 +3,7 @@
    ========================================================================== */
 footer {
   clear:both;
-  background: #ECECE2;
+  background: $lightBeige;
   height:200px;
 }
 
@@ -37,11 +37,11 @@ footer article.rightSide{
 }
 
 footer i.fa{
-  color: #1e212a;
+  color: $darkGrey;
   font-size: 30px;
   padding: 10px;
 }
 
 footer i.fa:hover{
-  color: #91ddd1;
+  color: $turquoise;
 }

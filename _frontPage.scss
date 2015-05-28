@@ -21,12 +21,12 @@ section.headerBackground h2{
 
 button.getStarted{
   padding: 20px 30px;
-  border:2px solid #1e212a;
+  border:2px solid $darkGrey;
   border-radius: 5px;
   background-color: transparent;
-  color:#1e212a;
+  color: $darkGrey;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: bolder;
   font-size: 20px;
   transition: all 0.2s ease-in-out;
 }
