@@ -28,6 +28,7 @@
     <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
         <?php bloginfo( 'name' ); ?>
+        <img class="lotusTop" src="<?php bloginfo('template_directory') ?>/img/lotus2.svg" alt="">
       </a>
     </h1>
 
