@@ -18,3 +18,24 @@ input {
   border-radius: 3px;
   margin: 20px 10px;
 }    
+
+input.searchsubmit {
+  background: $white;
+  border-shadow:
+  // color: $darkGrey;
+  // border: $darkGrey;
+
+}
+
+a {
+  margin: 20px;
+  font-weight: 500;
+  color: $mediumBrown;
+  &:hover {
+    color: $turquoise;
+  }
+}
+
+h3 {
+  margin: 15px 10px;
+}
