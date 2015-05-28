@@ -1,18 +1,21 @@
 /* =============================================================================
                    Navigation
    ========================================================================== */
+  header{
+    background: $lightBeige;
+  }
   h1 {
     float: left;
     margin: 20px;
   }
 
   h1 a {
-    color: #1E212A;
+    color: $darkGrey;
   }
 
   h1 a:hover,
   ul.menu li a:hover {
-    color: #91DDD1;
+    color: $turquoise;
   }
 
   ul.menu {
@@ -27,6 +30,6 @@
     }
 
       ul.menu li a {
-        color:#1E212A;
+        color: $darkGrey;
         padding:10px;
       }
