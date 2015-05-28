@@ -1,8 +1,21 @@
 <footer>
-  <div class="container">
-  	<p>I am editing stuff!</p>
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
-  </div>
+
+ <div class="container">
+     <article class="footer leftSide">
+          <i class="fa fa-phone"></i>
+          <i class="fa fa-envelope-o"></i>
+          <i class="fa fa-map-marker"></i>
+     </article>
+     <article class="footer middle">
+         <p>&copy; Monatang <?php echo date('Y'); ?></p>
+     </article>
+     <article class="footer rightSide">
+         <i class="fa fa-facebook-square"></i>
+         <i class="fa fa-twitter-square"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-pinterest-square"></i>
+     </article>
+ </div>
 </footer>
 
 <script>

@@ -1,0 +1,32 @@
+/* =============================================================================
+                   Navigation
+   ========================================================================== */
+  h1 {
+    float: left;
+    margin: 20px;
+  }
+
+  h1 a {
+    color: #1E212A;
+  }
+
+  h1 a:hover,
+  ul.menu li a:hover {
+    color: #91DDD1;
+  }
+
+  ul.menu {
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+  }
+    ul.menu li {
+      display:inline;
+      margin-right: 10px;
+    }
+
+      ul.menu li a {
+        color:#1E212A;
+        padding:10px;
+      }

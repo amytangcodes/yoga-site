@@ -2,7 +2,7 @@
 
 <div class="main">
   <div class="container">
-   <p>I am editing stuff!</p>
+
     <div class="content">
 
       <h1>Category Archives: <?php single_cat_title(); ?></h1>

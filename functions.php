@@ -117,6 +117,7 @@ add_filter( 'wp_page_menu_args', 'hackeryou_page_menu_args' );
  */
 function hackeryou_excerpt_length( $length ) {
 	return 40;
+
 }
 add_filter( 'excerpt_length', 'hackeryou_excerpt_length' );
 

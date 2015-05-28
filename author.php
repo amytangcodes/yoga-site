@@ -2,7 +2,7 @@
 
 <div class="main">
   <div class="container">
-     <p>I am editing stuff!</p>
+
     <div class="content">
 
       <?php
@@ -14,7 +14,9 @@
       		the_post();
       ?>
 
-      <h1>More posts from:
+
+      <h1>Author Archives:
+
         <a class="name" href="<?php echo get_author_posts_url( get_the_author_meta('ID') ); ?>">
           <?php the_author(); ?>
         </a>
@@ -23,12 +25,10 @@
       <?php
       	// If a user has filled out their description, show a bio on their entries.
       	if ( get_the_author_meta('description') ) : ?>
-          <?php echo get_avatar( get_the_author_meta('user_email'), 160); ?>
-          <h2>About <?php the_author(); ?> 
-            <a href="<?php the_author_meta('user_url'); ?>">
-            <?php the_author_meta('user_url'); ?>
-            </a>
-           </h2>
+
+
+          <h2>About <?php the_author(); ?> </h2>
+      		<?php echo get_avatar( get_the_author_meta('user_email'), 60); ?>
       		<?php the_author_meta('description'); ?>
 
         <?php endif; ?>

@@ -2,7 +2,7 @@
 
 <div class="main">
   <div class="container">
-	 <p>I am editing stuff!</p>
+
     <div class="content">
       <h1>Tag Archives: <?php single_tag_title(); ?></h1>
       <?php get_template_part( 'loop', 'tag' ); ?>

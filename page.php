@@ -2,7 +2,7 @@
 
 <div class="main">
   <div class="container">
-    <p>I am editing stuff!</p>
+
     <div class="content">
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
