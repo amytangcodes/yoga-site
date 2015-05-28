@@ -1,0 +1,47 @@
+/* =============================================================================
+                   Footer
+   ========================================================================== */
+footer {
+  clear:both;
+  background: #ECECE2;
+  height:200px;
+}
+
+footer p{
+  display: inline;
+}
+
+footer article{
+  float:left;
+  text-align: center;
+  line-height:200px;
+}
+
+footer article.leftSide{
+  width:33%;
+  margin:0;
+  padding:0;
+
+}
+
+footer article.middle{
+   width:33%;
+   margin:0;
+   padding:0;
+}
+
+footer article.rightSide{
+   width:33%;
+   margin:0;
+   padding:0;
+}
+
+footer i.fa{
+  color: #1e212a;
+  font-size: 30px;
+  padding: 10px;
+}
+
+footer i.fa:hover{
+  color: #91ddd1;
+}

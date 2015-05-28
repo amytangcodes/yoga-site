@@ -1,0 +1,46 @@
+/* =============================================================================
+                   Footer
+   ========================================================================== */
+/* line 4, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_footer.scss */
+footer {
+  clear: both;
+  background: #ECECE2;
+  height: 200px; }
+
+/* line 10, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_footer.scss */
+footer p {
+  display: inline; }
+
+/* line 14, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_footer.scss */
+footer article {
+  float: left;
+  text-align: center;
+  line-height: 200px; }
+
+/* line 20, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_footer.scss */
+footer article.leftSide {
+  width: 33%;
+  margin: 0;
+  padding: 0; }
+
+/* line 27, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_footer.scss */
+footer article.middle {
+  width: 33%;
+  margin: 0;
+  padding: 0; }
+
+/* line 33, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_footer.scss */
+footer article.rightSide {
+  width: 33%;
+  margin: 0;
+  padding: 0; }
+
+/* line 39, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_footer.scss */
+footer i.fa {
+  color: #1e212a;
+  font-size: 30px;
+  padding: 10px; }
+
+/* line 45, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_footer.scss */
+footer i.fa:hover {
+  color: #91ddd1; }
