@@ -1,0 +1,25 @@
+/* =============================================================================
+                   Blog Page
+   ========================================================================== */
+/* line 5, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_blogPage.scss */
+.blogPost {
+  border: 2px solid #91DDD1;
+  border-radius: 50px;
+  margin: 20px 10px;
+  padding: 30px;
+  box-shadow: 8px 8px 5px #888888; }
+
+/* line 13, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_blogPage.scss */
+h2.entry-title a {
+  color: #1E212A; }
+  /* line 15, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_blogPage.scss */
+  h2.entry-title a:hover {
+    color: #91DDD1; }
+
+/* line 20, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_blogPage.scss */
+footer.blogFooter {
+  background: #fff;
+  height: 40px; }
+  /* line 24, C:/Users/AMY/Documents/00_Development/01_Project/wordpressSite/wordpress-yoga/wp-content/themes/theme-yogastudio/_blogPage.scss */
+  footer.blogFooter p {
+    margin: 10px; }
