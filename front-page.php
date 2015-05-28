@@ -1,7 +1,7 @@
 <!--how to make dynamic?-->
 <?php get_header(); ?>
 <section class="headerBackground">
- <h2>Just Be.</h2> <!--make dynamic-->
+ <h2>Just Be</h2> <!--make dynamic-->
  <button class="getStarted">Get Started</button>
 </section>
 
