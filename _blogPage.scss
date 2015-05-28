@@ -3,22 +3,22 @@
    ========================================================================== */
 
 .blogPost {
-  border: 2px solid #91DDD1;
+  border: 2px solid $turquoise;
   border-radius: 50px;
   margin: 20px 10px;
   padding: 30px;
-  box-shadow: 8px 8px 5px #888888;
+  box-shadow: 8px 8px 5px $darkGrey;
 }  
 
 h2.entry-title a {
-  color: #1E212A;
+  color: $darkGrey;
   &:hover {
-  	color: #91DDD1;
+  	color: $turquoise;
   }
 }
 
 footer.blogFooter {
-	background: #fff;
+	background: $white;
 	height: 40px;
 
 	p {
