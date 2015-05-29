@@ -1,7 +1,35 @@
-.entry-meta {
+.entry-meta,
+.entry-utility {
 	
 	h1.entry-title {
 		float: none;
 	}
-	
+	a {
+		font-weight: 500;
+		color: $mediumBrown;
+		&:hover {
+			color: $turquoise;
+		}	
+	}
+}
+
+.nav-previous,
+.nav-next {
+	a {
+		font-weight: 500;
+		color: $mediumBrown;
+		&:hover {
+			color: $turquoise;
+		}	
+	}
+}
+
+.logged-in-as {
+	a {
+		font-weight: 500;
+		color: $mediumBrown;
+		&:hover {
+			color: $turquoise;
+		}	
+	}
 }
