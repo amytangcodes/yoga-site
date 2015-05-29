@@ -11,10 +11,10 @@
           <div class="entry-meta">
 
             <h1 class="entry-title"><?php the_title(); ?></h1>
+
             <?php echo get_avatar( get_the_author_meta( 'ID' ), 30 ); ?>
             <?php hackeryou_posted_on(); ?>
-            <?php $my_date = the_date('M j, y'); echo $my_date; ?> 
-            (<?php the_time(); ?>)
+            
             
           </div><!-- .entry-meta -->
 
