@@ -27,8 +27,8 @@
 
     <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
-        <?php bloginfo( 'name' ); ?>
-        <img class="lotusTop" src="<?php bloginfo('template_directory') ?>/img/lotus2.svg" alt="">
+        <span class="titleSpan"><?php bloginfo( 'name' ); ?></span>
+        <img class="lotusTop" src="<?php bloginfo('template_directory') ?>/img/lotus.svg" alt="">
       </a>
     </h1>
 

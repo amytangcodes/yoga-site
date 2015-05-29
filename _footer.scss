@@ -5,53 +5,72 @@ footer {
   clear:both;
   background: $lightBeige;
   height:200px;
-  article{
-    float:left;
-    text-align: center;
-    line-height:200px;
-    i.fa{
-      color: $darkGrey;
-      font-size: 30px;
-      padding: 10px;
+  .flexContainer{
+    display:flex;
+    article{
+      i.fa{
+        color: $darkGrey;
+        font-size: 30px;
+        padding: 10px;
+      }
     }
-
-    i.fa:hover{
-      color: $turquoise;
+    article.leftSide{
+      width:33%;
+      margin:0;
+      padding:0;
+      display:flex;
+      flex-direction:column;
+      div.phone{
+        display:flex;
+        p{
+        }
+      }
+      div.email{
+        display:flex;
+        p{
+          
+        }
+      }
+      div.address{
+        display:flex;
+        p{
+          
+        }
+      }
     }
-  }
-
-  article.leftSide{
-    width:33%;
-    margin:0;
-    padding:0;
-
-  }
-
-  article.middle{
-     width:33%;
-     margin:0;
-     padding:0;
-     p{
-         display: inline;
+    article.middle{
+       width:33%;
+       margin:0;
+       padding:0;
+       display:flex;
+       flex-direction:column;
+       justify-content:center;
+       align-items:center;
+       p{
+           
+         }
+         .lotusBottom{
+          width:40px;
+          height:40px;
+         }
+    }
+    article.rightSide{
+       width:33%;
+       margin:0;
+       padding:0;
+       line-height: 200px;
+       i.fa{
+         color: $darkGrey;
+         font-size: 40px;
+         padding: 20px;
        }
-  }
-
-  article.rightSide{
-     width:33%;
-     margin:0;
-     padding:0;
+       i.fa:hover{
+         color: $turquoise;
+       }
+    }
   }
 }
 
 
 
 
-i.fa{
-  color: $darkGrey;
-  font-size: 30px;
-  padding: 10px;
-}
-
-i.fa:hover{
-  color: $turquoise;
-}
