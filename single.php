@@ -5,20 +5,17 @@
 
     <div class="content">
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-
+          
         <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-          <h1 class="entry-title"><?php the_title(); ?></h1>
           
           <div class="entry-meta">
 
+            <h1 class="entry-title"><?php the_title(); ?></h1>
+            <?php echo get_avatar( get_the_author_meta( 'ID' ), 30 ); ?>
             <?php hackeryou_posted_on(); ?>
-
-            <?php $my_date = the_date('D M'); echo $my_date; ?>
-            <?php echo get_avatar( get_the_author_meta( 'ID' ), 100 ); ?>
-            <?php the_author_posts_link(); ?>
-            
+            <?php $my_date = the_date('M j, y'); echo $my_date; ?> 
             (<?php the_time(); ?>)
-
+            
           </div><!-- .entry-meta -->
 
           <div class="entry-content">
