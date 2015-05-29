@@ -3,19 +3,25 @@
    ========================================================================== */
   header{
     background: $lightBeige;
-  }
-  h1 {
-    float: left;
-    margin: 20px;
-  }
-
-  h1 a {
-    color: $darkGrey;
-  }
-
-  h1 a:hover,
-  ul.menu li a:hover {
-    color: $turquoise;
+    position: fixed;
+    width:100%;
+    h1 {
+      float: left;
+      margin: 20px;
+      width: 300px;
+      font-weight: 300;
+      a {
+        color: $darkGrey;
+      }
+      a:hover{
+        color: $turquoise;
+      }
+      .lotusTop{
+        width: 40px;
+        height:40px;
+        margin-left: 15px;
+      }
+    }
   }
 
   ul.menu {
@@ -23,13 +29,19 @@
     list-style-type: none;
     margin: 20px;
     padding: 10px;
-  }
-    ul.menu li {
+    li {
       display:inline;
       margin-right: 10px;
-    }
-
-      ul.menu li a {
+      a {
         color: $darkGrey;
         padding:10px;
+        font-size: 15px;
       }
+      a:hover{
+        color: $turquoise;
+      }
+    }
+  }
+    
+
+     
