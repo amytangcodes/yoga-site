@@ -11,16 +11,19 @@
        <article class="overviewLeft">
          <img class="overviewImage" src="<?php bloginfo('template_directory') ?>/img/studio5.jpg" alt="">
          <a href="#" class="practice"><p class="overviewHeading">Practice</p></a>
+         <hr>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At expedita consequuntur facere! Ex, dicta, esse.</p>
        </article>
        <article class="overviewMiddle">
          <img class="overviewImage" src="<?php bloginfo('template_directory') ?>/img/studio6.jpg" alt="">
         <a href="#" class="lifestyle"> <p class="overviewHeading">Lifestyle</p></a>
+        <hr>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic pariatur delectus perferendis recusandae adipisci veniam.</p>
        </article>
        <article class="overviewRight">
          <img class="overviewImage" src="<?php bloginfo('template_directory') ?>/img/studio4.jpg" alt="">
          <a href="#" class="promo"><p class="overviewHeading">Monthly Promo</p></a>
+         <hr>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus odit quidem odio modi voluptatem quisquam.</p>
        </article>
      </div>
