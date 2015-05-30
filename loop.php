@@ -24,7 +24,7 @@
 		    </h2>
 
 			<section class="entry-content">
-				<?php the_content('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
+				<?php the_content('Read More <span class="meta-nav">&rarr;</span>'); ?>
 				<?php wp_link_pages( array(
 		          'before' => '<div class="page-link"> Pages:',
 		          'after' => '</div>'
@@ -32,7 +32,15 @@
 			</section><!-- .entry-content -->
 
 			<footer class="blogFooter">
-				<p><?php the_tags('Tags: ', ', ', '<br>'); ?> Posted in <?php the_category(', '); ?> &bull;<?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?> &bull;<?php comments_popup_link('Respond to this post &raquo;', '1 Response &raquo;', '% Responses &raquo;'); ?></p>  
+				<p>
+					<?php the_tags('Tags: ', ', ', '<br>'); ?> 
+					Posted in 
+					<?php the_category(', '); ?> 
+					&bull;
+					<?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?> 
+					&bull;
+					<?php comments_popup_link('Respond to this post &raquo;', '1 Response &raquo;', '% Responses &raquo;'); ?>
+				</p>  
 			</footer>
 		</article><!-- #post-## -->
 	

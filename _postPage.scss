@@ -1,8 +1,6 @@
 .postSection {
-	margin-top: 200px;
 	margin-left: 50px;
 }
-
 
 .entry-meta,
 .entry-utility {
@@ -37,5 +35,24 @@
 		&:hover {
 			color: $turquoise;
 		}	
+	}
+}
+
+footer.comment-meta {
+	height: 70px;
+	padding: 10px;
+	background: $white;
+	margin: 0;
+}
+
+.comment-body {
+	.reply {
+		margin-top: 10px;
+		a {
+			color: $darkBrown;
+			&:hover {
+				color: $turquoise;
+			}
+		}
 	}
 }
