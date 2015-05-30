@@ -20,14 +20,20 @@ h2{
 			    width: 50%;
 			}
 		.wpcf7-submit{
-			font-size: 30px;
-			font-family: lato;
-			font-weight: 400;
+			padding: 20px 30px;
+			border:2px solid $darkGrey;
+			border-radius: 5px;
+			background-color: transparent;
+			color: $darkGrey;
 			text-transform: uppercase;
-			border: none;
-			padding: 10px;
-			background-color: $darkGrey;
-			color: $offWhite;
+			font-weight: bolder;
+			font-size: 20px;
+			transition: all 0.2s ease-in-out;
+		}
+		.wpcf7-submit:hover{
+			background: rgba(236,236,226, 0.5);
+			border: 2px solid;
+			border-color:rgba(236,236,226, 0.5);
 		}
 	}
 }
