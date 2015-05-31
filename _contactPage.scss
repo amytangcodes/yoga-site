@@ -31,9 +31,8 @@ h2{
 			transition: all 0.2s ease-in-out;
 		}
 		.wpcf7-submit:hover{
-			background: rgba(236,236,226, 0.5);
-			border: 2px solid;
-			border-color:rgba(236,236,226, 0.5);
+			background: $darkBeige;
+			border: 2px solid $darkBeige;
 		}
 	}
 }
