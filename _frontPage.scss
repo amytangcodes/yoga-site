@@ -86,19 +86,20 @@ section.studio{
     padding-bottom: 0;
     text-transform: uppercase;
   }
-  .studioImage{
-    width:300px;
-    height:300px;
-    float:left;
-    padding-bottom: 20px;
-  }
-  .studioImageMiddle{
-    width:580px;
-    height:300px;
-    float:left;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 20px;
+  .studioImages{
+    display: flex;
+    .studioImage{
+      max-width:30%;
+      height:300px;
+      padding-bottom: 20px;
+    }
+    .studioImageMiddle{
+      max-width:70%;
+      height:300px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-bottom: 20px;
+    }
   }
   .studioDescription{
     font-size: 15px;
@@ -107,6 +108,14 @@ section.studio{
     margin-bottom: 0;
   }
 }
+
+ // @media (max-width:1200px){
+ //      .studioImageMiddle{
+ //        width:300px;
+ //      }
+ //    }
+
+
 
 // JUICEBAR SECTION
 // ===============================
