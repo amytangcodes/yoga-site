@@ -99,6 +99,9 @@ h1, h2 {
   margin: 30px;
 }
 
+h1.entry-title {
+  margin-left: 0;
+}
 .content {
   h2 {
     font-size: 40px;
@@ -108,5 +111,12 @@ h1, h2 {
     text-transform: uppercase;
 
   }
-}  
+} 
+
+h2.comments-title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
 
