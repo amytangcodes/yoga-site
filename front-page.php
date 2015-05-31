@@ -31,11 +31,13 @@
 </div><!--end of overview section-->
 
 <section class="studio"><!--studio section-->
-  <div class="container clearfix">
+  <div class="container">
     <h2 class="ourStudio">Our Studio</h2>
-    <img class="studioImage" src="<?php bloginfo('template_directory') ?>/img/studio.jpg" alt="">
-    <img class="studioImageMiddle" src="<?php bloginfo('template_directory') ?>/img/studio6.jpg" alt="">
-    <img class="studioImage" src="<?php bloginfo('template_directory') ?>/img/studio3.jpg" alt="">
+    <div class="studioImages">
+      <img class="studioImage" src="<?php bloginfo('template_directory') ?>/img/studio.jpg" alt="">
+      <img class="studioImageMiddle" src="<?php bloginfo('template_directory') ?>/img/studio6.jpg" alt="">
+      <img class="studioImage" src="<?php bloginfo('template_directory') ?>/img/studio3.jpg" alt="">
+    </div>
     <p class="studioDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus modi quas tempore, illo accusantium! Dolorem qui quasi alias cum rerum totam neque nisi, laborum, facilis minus, vero non facere animi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci itaque cum vitae voluptatibus laboriosam voluptate debitis quaerat alias beatae! Quasi cum rerum harum quo explicabo deleniti veritatis magnam saepe doloremque.</p>
   </div>
 </section><!--end of studio section-->

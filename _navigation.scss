@@ -4,6 +4,7 @@
   header{
     background: $lightBeige;
     position: fixed;
+    z-index: 1000;
     width:100%;
     box-shadow: 0 0 10px 0 $darkGrey;
     h1 {
