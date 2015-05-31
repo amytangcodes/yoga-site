@@ -7,6 +7,8 @@ footer {
   height:200px;
   .flexContainer{
     display:flex;
+    justify-content:center;
+    align-items:center;
     article{
       i.fa{
         color: $darkGrey;
