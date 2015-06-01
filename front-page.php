@@ -9,20 +9,26 @@
    <section class="frontPageContent">
      <div class="quickOverview">
        <article class="overviewLeft">
-         <img class="overviewImage" src="<?php bloginfo('template_directory') ?>/img/studio5.jpg" alt="">
-         <a href="#" class="practice"><p class="overviewHeading">Practice</p></a>
+         <a href="#" class="practice">
+           <img class="overviewImage" src="<?php bloginfo('template_directory') ?>/img/studio5.jpg" alt="">
+          <p class="overviewHeading">Practice</p>
+         </a>
          <hr>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At expedita consequuntur facere! Ex, dicta, esse.</p>
        </article>
        <article class="overviewMiddle">
-         <img class="overviewImage" src="<?php bloginfo('template_directory') ?>/img/studio6.jpg" alt="">
-        <a href="#" class="lifestyle"> <p class="overviewHeading">Lifestyle</p></a>
+         <a href="#" class="lifestyle"> 
+           <img class="overviewImage" src="<?php bloginfo('template_directory') ?>/img/studio6.jpg" alt="">
+           <p class="overviewHeading">Lifestyle</p>
+        </a>
         <hr>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic pariatur delectus perferendis recusandae adipisci veniam.</p>
        </article>
        <article class="overviewRight">
-         <img class="overviewImage" src="<?php bloginfo('template_directory') ?>/img/studio4.jpg" alt="">
-         <a href="#" class="promo"><p class="overviewHeading">Monthly Promo</p></a>
+        <a href="#" class="promo">
+          <img class="overviewImage" src="<?php bloginfo('template_directory') ?>/img/studio4.jpg" alt="">
+          <p class="overviewHeading">Monthly Promo</p>
+        </a>
          <hr>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus odit quidem odio modi voluptatem quisquam.</p>
        </article>
@@ -43,14 +49,14 @@
 </section><!--end of studio section-->
 
 <section class="juicebar"><!--juicebar section-->
-  <div class="container">
-   <h2 class="onSiteJuice">On Site Juice Bar</h2>
-   <div class="leftText">
-     <p class="juicebarInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam expedita numquam, placeat nesciunt tempora quaerat sed, non quis similique fugiat ad minus alias asperiores dolorem veniam adipisci culpa incidunt inventore.</p>
-     <p class="juicebarInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam expedita numquam, placeat nesciunt tempora quaerat sed, non quis similique fugiat ad minus alias asperiores dolorem veniam adipisci culpa incidunt inventore.</p>
-     <p class="juicebarInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam expedita numquam, placeat nesciunt tempora quaerat sed, non quis similique fugiat ad minus alias asperiores dolorem veniam adipisci culpa incidunt inventore.</p>
-   </div>
-   <img class="juicebar" src="<?php bloginfo('template_directory') ?>/img/juicebar.jpg" alt="">
+  <h2 class="onSiteJuice">On Site Juice Bar</h2>
+  <div class="container flexContainer">
+     <div class="leftText">
+       <p class="juicebarInfo top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam expedita numquam, placeat nesciunt tempora quaerat sed, non quis similique fugiat ad minus alias asperiores dolorem veniam adipisci culpa incidunt inventore.</p>
+       <p class="juicebarInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam expedita numquam, placeat nesciunt tempora quaerat sed, non quis similique fugiat ad minus alias asperiores dolorem veniam adipisci culpa incidunt inventore.</p>
+       <p class="juicebarInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam expedita numquam, placeat nesciunt tempora quaerat sed, non quis similique fugiat ad minus alias asperiores dolorem veniam adipisci culpa incidunt inventore.</p>
+     </div>
+     <img class="juicebar" src="<?php bloginfo('template_directory') ?>/img/juicebar.jpg" alt="">
   </div>
 </section><!--end of juicebar section-->
 <?php get_footer(); ?>
