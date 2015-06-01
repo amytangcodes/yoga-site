@@ -30,12 +30,15 @@ body {
   margin-right: 5%;
   margin-top: 120px;
   margin-bottom: 50px;
-
   @media (max-width: 890px) {
     margin-top: 150px;
   }
   @media (max-width: 720px) {
     margin-top: 160px;
+    width: 100%;
+  }
+  @media (max-width: 480px) {
+    
   }
 }
 
