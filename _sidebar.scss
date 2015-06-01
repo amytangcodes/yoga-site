@@ -5,28 +5,66 @@
 .sidebar {
   width:30%;
   float:left;
-  margin-top: 120px;
-}
-  .sidebar ul {
-    margin:0;
-    padding:0;
+  margin-top: 140px;
+  margin-bottom: 70px;
+  margin-left: 0;
+  @media (max-width: 890px) {
+    margin-top: 170px;
   }
-    .sidebar ul li {
-      list-style: none;
-    }
+
+  @media (max-width: 720px) {
+    width: 80%;
+    clear: both;
+    margin-top: 0;
+    margin-left: 20px;
+    // margin-bottom: 120px;
+  }
+}
+
+.sidebar ul {
+  margin:0;
+  padding:0;
+  li {
+    list-style: none;
+  }
+}
+  
+#searchform {
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 720px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
 input {
   border-radius: 3px;
-  margin: 20px 10px;
-}    
+  padding: 5px 8px;
+  margin: 5px 10px;
+  width: 60%;
+  @media (max-width: 720px) {
+      // padding: 3px 5px;
+      
+    }
+
+}  
 
 input.searchsubmit {
-  background: $white;
-  border-shadow:
-  // color: $darkGrey;
-  // border: $darkGrey;
+    background: $white;
+    padding: 5px 8px;
+    width: 40%;
+    margin: 5px 10px;
+    @media (max-width: 720px) {
+      padding: 3px 5px;
+      width: 20%;
 
-}
+      
+    }
+}  
+
+
+
 ul.xoxo a {
   margin: 20px;
   font-weight: 500;
@@ -39,3 +77,4 @@ ul.xoxo a {
 h3 {
   margin: 15px 10px;
 }
+
