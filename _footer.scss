@@ -14,30 +14,25 @@ footer {
         color: $darkGrey;
         font-size: 30px;
         padding: 10px;
+        @media (max-width:1020px){
+            font-size: 25px;
+        }
       }
     }
     article.leftSide{
-      width:33%;
+      max-width:33%;
       margin:0;
       padding:0;
       display:flex;
       flex-direction:column;
       div.phone{
         display:flex;
-        p{
-        }
       }
       div.email{
         display:flex;
-        p{
-          
-        }
       }
       div.address{
         display:flex;
-        p{
-          
-        }
       }
     }
     article.middle{
@@ -48,9 +43,6 @@ footer {
        flex-direction:column;
        justify-content:center;
        align-items:center;
-       p{
-           
-         }
          .lotusBottom{
           width:40px;
           height:40px;
@@ -61,10 +53,18 @@ footer {
        margin:0;
        padding:0;
        line-height: 200px;
+       @media (max-width:860px){
+           display: flex;
+           flex-wrap: wrap;
+           line-height: 0;
+       }
        i.fa{
          color: $darkGrey;
          font-size: 40px;
          padding: 20px;
+         @media (max-width:1020px){
+             font-size: 25px;
+         }
        }
        i.fa:hover{
          color: $turquoise;
@@ -72,6 +72,8 @@ footer {
     }
   }
 }
+
+
 
 
 

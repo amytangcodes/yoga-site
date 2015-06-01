@@ -7,43 +7,52 @@
     z-index: 1000;
     width:100%;
     box-shadow: 0 0 10px 0 $darkGrey;
-    h1 {
-      float: left;
+    .flexContainer{
+      display: flex;
+      justify-content: space-between;
+      @media (max-width: 976px) {
+        flex-direction: column;
+      }
+      h1 {
+        margin: 20px;
+        width: 300px;
+        font-weight: 300;
+        a {
+          color: $darkGrey;
+        }
+        a:hover{
+          color: $turquoise;
+        }
+        .lotusTop{
+          width: 40px;
+          height:40px;
+          margin-left: 15px;
+        }
+      }
+    } 
+
+    ul.menu {
+      list-style-type: none;
       margin: 20px;
-      width: 300px;
-      font-weight: 300;
-      a {
-        color: $darkGrey;
+      padding: 10px;
+      @media (max-width: 976px) {
+        margin:0;
       }
-      a:hover{
-        color: $turquoise;
-      }
-      .lotusTop{
-        width: 40px;
-        height:40px;
-        margin-left: 15px;
+      li {
+        display:inline;
+        margin-right: 10px;
+        a {
+          color: $darkGrey;
+          padding:10px;
+          font-size: 15px;
+        }
+        a:hover{
+          color: $turquoise;
+        }
       }
     }
   }
 
-  ul.menu {
-    float: right;
-    list-style-type: none;
-    margin: 20px;
-    padding: 10px;
-    li {
-      display:inline;
-      margin-right: 10px;
-      a {
-        color: $darkGrey;
-        padding:10px;
-        font-size: 15px;
-      }
-      a:hover{
-        color: $turquoise;
-      }
-    }
-  }
     
 
      
